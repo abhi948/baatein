@@ -145,7 +145,7 @@ const FormContainer = styled.div`
       height: 5rem;
     }
     h1 {
-      color: white;
+      color: rgb(2,10,238);
       text-transform: uppercase;
     }
   }
@@ -156,24 +156,24 @@ const FormContainer = styled.div`
     gap: 2rem;
     background-color: #00000076;
     border-radius: 2rem;
-    padding: 3rem 5rem;
+    padding: 5rem;
   }
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #ff0e0e;
+    border: 0.1rem solid rgb(5 3 210);
     border-radius: 0.4rem;
     color: white;
     width: 100%;
     font-size: 1rem;
     &:focus {
-      border: 0.1rem solid #f07a7a;
+      border: 0.1rem solid rgb(2 241 238);
       outline: none;
     }
   }
   button {
-    background-color: #ff0000;
-    color: black;
+    background-color:rgb(2 105 255);
+    color: #ffbebe;
     padding: 1rem 2rem;
     border: none;
     font-weight: bold;
@@ -182,14 +182,15 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #fe2828;
+      background-color: rgb(2 241 238);
+      color: rgb(2 10 255);
     }
   }
   span {
-    color: white;
+    color: rgb(2,10,238);
     text-transform: uppercase;
     a {
-      color: #ff0e0e;
+      color: rgb(2 241 238);
       text-decoration: none;
       font-weight: bold;
     }
