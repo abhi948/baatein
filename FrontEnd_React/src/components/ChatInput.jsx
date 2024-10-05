@@ -73,11 +73,10 @@ const Container = styled.div`
       .emoji-picker-react {
         position: absolute;
         top: -350px;
-        background-color: #080420;
-        box-shadow: 0 5px 10px #f38686;
-        border-color: #f38686;
+        background-color: #353054;
+        border-color: rg(2,100,255);
         .emoji-scroll-wrapper::-webkit-scrollbar {
-          background-color: #080420;
+         
           width: 5px;
           &-thumb {
             background-color: #f38686;
@@ -91,9 +90,13 @@ const Container = styled.div`
         .emoji-search {
           background-color: transparent;
           border-color: #f38686;
+          color:white;
         }
         .emoji-group:before {
           background-color: #080420;
+          border-radius : 10px;
+          padding-left : 4px;
+          color: skyblue;
         }
       }
     }
@@ -104,7 +107,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 2rem;
-    background-color: #0015fd;
+    background-color: #000050;
     input {
       width: 90%;
       height: 60%;
@@ -115,7 +118,7 @@ const Container = styled.div`
       font-size: 1.2rem;
 
       &::selection {
-        background-color: #ff0000;
+        background-color: rgb(120,20,60);
       }
       &:focus {
         outline: none;
@@ -127,7 +130,7 @@ const Container = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #ff0000;
+      background-color: rgb(2 100 230);
       border: none;
       @media screen and (min-width: 720px) and (max-width: 1080px) {
         padding: 0.3rem 1rem;
